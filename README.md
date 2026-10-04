@@ -16,11 +16,11 @@ JavaScript · Node.js · HTTP APIs · persistent workflows · responsive interfa
 
 ### [SentinelNode](https://github.com/SoleVagabond/sentinel-node)
 
-HTTP monitoring with incident history and a separate signal for telemetry freshness. The local incident lab demonstrates slow responses, service outages, interrupted reporting, and recovery. Old observations become unknown instead of continuing to look healthy.
+A working HTTP monitoring application for a computer or server: configure real websites, run scheduled checks, investigate and annotate incidents, deliver optional webhook alerts, inspect saved history, and back up or restore the workspace. Its separate local demo exercises outages and notification retries. Stale observations become unknown instead of continuing to look healthy.
 
-[Source and local setup](https://github.com/SoleVagabond/sentinel-node) · [Case study](https://github.com/SoleVagabond/sentinel-node/blob/main/docs/case-study.md) · [Verification evidence](https://github.com/SoleVagabond/sentinel-node/blob/main/docs/validation.md)
+[Download Sentinel 1.0.0](https://github.com/SoleVagabond/sentinel-node/releases/tag/v1.0.0) · [Setup guide](https://github.com/SoleVagabond/sentinel-node/blob/main/release/QUICKSTART.md) · [Source](https://github.com/SoleVagabond/sentinel-node) · [Case study](https://github.com/SoleVagabond/sentinel-node/blob/main/docs/case-study.md) · [Verification evidence](https://github.com/SoleVagabond/sentinel-node/blob/main/docs/validation.md)
 
-Python · concurrent HTTP checks · incident handling · GitHub Actions · Terraform
+Python · SQLite · concurrent HTTP checks · durable notifications · GitHub Actions · Terraform
 
 ## How I approach projects
 
