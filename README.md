@@ -1,58 +1,54 @@
 # Hi, I'm Devin
 
-I build custom web applications, dashboards, API integrations and automation. I’m interested in the whole workflow: what a customer needs to do, what staff need behind the scenes, and how the system behaves when something goes wrong.
+I build web applications, connect services and work through the technical problems behind them. My background spans our family business, computer support and independent software and home-server projects.
 
-My background includes technical support and business operations—commercial accounts, purchasing, inventory, vendor coordination and customer follow-up. That experience shapes how I approach software: make the information useful, the next step clear and the work easier to manage.
+I was involved in Inkjet Express from its founding through its closure, working across commercial accounts, purchasing, vendors, inventory and customer support. I also started doing small paid computer repairs for family and friends in 2009. That experience is part of how I approach software: understand what someone needs to get done, then make the steps and information usable.
 
-[Portfolio](https://solevagabond.github.io/) · [Experience & project profile](https://solevagabond.github.io/profile.html) · [Project inquiries on Upwork](https://www.upwork.com/freelancers/~01e5e1f1782f59fb21)
+[Portfolio](https://solevagabond.github.io/) · [Experience and background](https://solevagabond.github.io/profile.html) · [Résumé (PDF)](https://solevagabond.github.io/assets/devin-crockrel-resume.pdf) · [Project inquiries](https://www.upwork.com/freelancers/~01e5e1f1782f59fb21)
 
-## What I work on
-
-- **Business applications:** customer and staff workflows, dashboards, estimates, scheduling and persistent records.
-- **Integrations and automation:** REST APIs, structured data imports, monitoring and repeatable background tasks.
-- **Websites and interfaces:** responsive business websites, React interfaces, search, forms and useful feedback.
-
-## Selected application work
+## Selected work
 
 ### [Northline Workshop](https://github.com/SoleVagabond/northline-cycle)
 
-A bicycle-workshop business application spanning a customer website, a protected staff dashboard and a separate sample-data demo. The workflow covers repair requests, itemized estimates, versioned customer approvals, scheduling, parts reservations, repair progress and collection.
+A fictional bicycle workshop's customer website and repair-management application. It connects intake, estimates, customer decisions, parts, scheduling and repair history.
 
-The staff side brings together the repair queue, customers, stock, pricing and reports. Customer access and internal workshop information serve distinct purposes.
+One important rule: approving an estimate doesn't authorize every later change. A revised price or scope needs a decision on that version. Staff notes stay private, and the public visitor demo has its own sample records.
 
-[Customer website](https://northline-cycle-devin.netlify.app/) · [Workshop demo](https://northline-cycle-devin.netlify.app/demo/workshop.html) · [Source and verification records](https://github.com/SoleVagabond/northline-cycle)
+[Try the workshop demo](https://northline-cycle-devin.netlify.app/demo/workshop.html) · [Customer website](https://northline-cycle-devin.netlify.app/) · [Source and checks](https://github.com/SoleVagabond/northline-cycle)
 
-JavaScript · Node.js · HTTP APIs · persistent workflows · responsive interfaces
+JavaScript · Node.js · Netlify · customer and staff workflows
+
+### [Job discovery and application workspace](https://solevagabond.github.io/job-discovery.html)
+
+I built both the employer-feed collection and the job seeker's workspace: search, filtering, saved searches, comparison and application tracking.
+
+Much of the work is behind the results page—handling duplicates, distinguishing original posting dates from later checks, respecting request limits and resuming an interrupted import without skipping unfinished work.
+
+[Read the case study](https://solevagabond.github.io/job-discovery.html). The application runs locally; public hosting is pending. Source, configuration and member records remain private.
+
+Next.js · Node.js · SQLite · Redis · data imports and account workflows
 
 ### [SentinelNode](https://github.com/SoleVagabond/sentinel-node)
 
-A single-operator HTTP monitoring application for a computer or server. Configure real endpoints, run scheduled checks, investigate and annotate incidents, inspect saved history and deliver optional webhook alerts with durable retries. Backup and recovery tools support the saved workspace.
+A runnable Python application for checking services and investigating incidents. It keeps acknowledgement, notes and recovery history, with notification retries, exports and database backups.
 
-A separate portfolio lab lets visitors explore recorded outage, stale-observation and recovery scenarios.
+A failed alert delivery is tracked separately from the monitored service's health. Restarting the app doesn't erase the investigation.
 
-[Download Sentinel 1.0.0](https://github.com/SoleVagabond/sentinel-node/releases/tag/v1.0.0) · [Setup guide](https://github.com/SoleVagabond/sentinel-node/blob/main/release/QUICKSTART.md) · [Source and verification](https://github.com/SoleVagabond/sentinel-node) · [Interactive portfolio lab](https://solevagabond.github.io/lab.html)
+[Download and run](https://github.com/SoleVagabond/sentinel-node/releases/tag/v1.0.0) · [Setup guide](https://github.com/SoleVagabond/sentinel-node/blob/main/release/QUICKSTART.md) · [Recorded browser lab](https://solevagabond.github.io/lab.html)
 
-Python · SQLite · concurrent HTTP checks · durable notifications · GitHub Actions
+Python · SQLite · scheduled HTTP checks · webhook delivery and recovery
 
-### [Job discovery & application workspace](https://solevagabond.github.io/job-discovery.html)
+## Beyond the featured projects
 
-A nationwide U.S. job-discovery application combining employer feeds with private member workspaces, saved searches, job comparison and application tracking. Background ingestion includes normalization, deduplication, resumable imports and durable request-budget accounting.
+- **StreamEasy:** a private React/Express media application with discovery, search, external API orchestration, a browser-local library and viewing progress.
+- **21 West Lounge:** a multi-page venue website and content-management workflows. I worked on making events, specials, pool and visitor pages answer distinct questions.
+- **Systems and self-hosting:** Linux, Raspberry Pi, a home server, CasaOS, Docker-based services and storage/NAS projects. Practical experience includes Tailscale, Syncthing, AdGuard Home and Uptime Kuma, plus experimentation with Ollama and Open WebUI.
+- **Technical support:** Windows, hardware and software troubleshooting, printers and peripherals, basic connectivity, and explaining options to nontechnical users.
 
-The public case study explains the architecture, verified behavior and operating limits. Application source and member data remain private; public hosting is pending.
+## What I bring to a project
 
-[Read the case study](https://solevagabond.github.io/job-discovery.html)
+I question whether a feature solves the actual problem, not just whether it appears on screen. That includes a changed estimate, a save that fails, an empty search, or a service that stops replying. My project work includes browser verification, automated checks and setup/recovery documentation alongside the implementation.
 
-Next.js · Node.js · SQLite · API integration · account workflows · background processing
+The featured applications are self-directed projects. Northline represents a fictional business. Sentinel is a single-operator local/server application; its browser lab replays recorded evidence and live AWS operation is not established.
 
-## Additional project experience
-
-- **StreamEasy:** a private React/Express application involving media discovery, API orchestration, a browser-local library and playback progress.
-- **21 West Lounge:** a multi-page business website and content-management workflows, with distinct pages for events, specials, pool and visitor information.
-
-## How I work
-
-I start with the steps people actually need to complete, then connect the interface, saved records and background work. I test successful flows alongside failed requests, stale data and recovery, and document setup and verified limits.
-
-Northline represents a fictional workshop. The three featured applications are self-directed projects. Sentinel’s local application is verified; live AWS operation remains unverified.
-
-For project work, [contact me through Upwork](https://www.upwork.com/freelancers/~01e5e1f1782f59fb21). For my broader background and selected work, see my [experience profile](https://solevagabond.github.io/profile.html).
+For a role or collaboration, see my [experience profile](https://solevagabond.github.io/profile.html). For project work, [reach me through Upwork](https://www.upwork.com/freelancers/~01e5e1f1782f59fb21).
